@@ -520,7 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/etc/camera/tulip_s5k5e8_qtech_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tulip_s5k5e8_qtech_india_ii_chromatix.xml \
     vendor/xiaomi/twolip/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/twolip/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/xiaomi/twolip/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/xiaomi/twolip/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/twolip/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/twolip/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
@@ -552,7 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/firmware/fpctzappfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b07 \
     vendor/xiaomi/twolip/proprietary/vendor/firmware/fpctzappfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.mdt \
     vendor/xiaomi/twolip/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
-    vendor/xiaomi/twolip/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/xiaomi/twolip/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
@@ -1093,7 +1091,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/xiaomi/twolip/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
@@ -1110,7 +1107,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/xiaomi/twolip/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/twolip/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.1.so
 
 PRODUCT_PACKAGES += \
@@ -1127,5 +1123,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    vendor.qti.gnss@3.0-service \
-    FingerprintExtensionService
+    vendor.qti.gnss@3.0-service
